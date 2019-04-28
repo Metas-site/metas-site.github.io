@@ -1,0 +1,31 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#header{
+	padding-top: 35px;
+	font-size: 1.2em;
+	color: white;
+}
+
+#hero-image{
+	background-image: url("C:/Users/Futuredu/projects/PPsite/Resources/PP.jpg");
+	min-width: 100%;
+	min-height: 100%;
+	background-position: center;
+	background-position-y: 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero-text {
+  font-family: 'Frank Ruhl Libre', serif;
+	font-size: 7em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
