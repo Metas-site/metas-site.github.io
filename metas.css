@@ -10,12 +10,10 @@ body{
 }
 
 #hero-image{
-	background-image: url("C:/Users/Futuredu/projects/PPsite/Resources/PP.jpg");
-	min-width: 100%;
-	min-height: 100%;
+	background-image: url("static/chill.jpg");
+	height: 1080px;
 	background-position: center;
 	background-position-y: 15%;
-	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -24,7 +22,17 @@ body{
   font-family: 'Frank Ruhl Libre', serif;
 	font-size: 7em;
 	position: absolute;
-	top: 50%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#hero-sub-text {
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 4em;
+	position: absolute;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
