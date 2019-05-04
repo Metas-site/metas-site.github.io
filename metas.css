@@ -10,7 +10,7 @@ body{
 }
 
 #hero-image{
-	background-image: url("static/Chill.jpg");
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("static/layback.jpg");
 	height: 1080px;
 	background-position: center;
 	background-position-y: 15%;
@@ -22,7 +22,7 @@ body{
   font-family: 'Frank Ruhl Libre', serif;
 	font-size: 7em;
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
@@ -32,8 +32,39 @@ body{
 	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 4em;
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+}
+
+.picture-section {
+	height: 1080px;
+	background-position: center;
+	background-position-y: 15%;
+	background-size: cover;
+	position: relative;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 2em;
+	/* position: absolute;
+	top: 50%;
+	left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	color: white;
+}
+
+#sit {
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("static/sit.jpg")
+}
+
+#meet {
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("static/meet.jpg")
+}
+
+#work {
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("static/work.jpg")
+}
+
+#swim {
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("static/swim.jpg")
 }
